@@ -161,7 +161,7 @@ class SectionHeader(tk.Frame):
 class SnifferApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Proyecto Final - Equipo 11 (Sniffer Global de Red)")
+        self.root.title("Sniffer Global de Red")
         self.root.configure(bg=COLORS["bg_base"])
         self.root.minsize(1024, 650) # Límitador mínimo para evitar colapsos visuales extremos
 
@@ -217,7 +217,7 @@ class SnifferApp:
         bar.pack_propagate(False)
         
         tk.Label(bar, text="◈", bg=COLORS["bg_base"], fg=COLORS["accent_cyan"], font=("Consolas", 14)).pack(side=tk.LEFT, padx=(15, 4))
-        tk.Label(bar, text="EQUIPO 11", bg=COLORS["bg_base"], fg=COLORS["text_primary"], font=("Consolas", 12, "bold")).pack(side=tk.LEFT)
+        tk.Label(bar, text="Sniffer Global de Red by Pandinux 19", bg=COLORS["bg_base"], fg=COLORS["text_primary"], font=("Consolas", 12, "bold")).pack(side=tk.LEFT)
         tk.Label(bar, text="  //  Sniffer Promiscuo Global (Sin Filtros)", bg=COLORS["bg_base"], fg=COLORS["text_dim"], font=("Consolas", 9)).pack(side=tk.LEFT, padx=4)
 
         right = tk.Frame(bar, bg=COLORS["bg_base"])
